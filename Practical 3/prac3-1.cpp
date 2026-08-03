@@ -35,7 +35,6 @@ int main()
     for(int i=0;i<n-1;i++)
     {
         int min=A[i];
-        
         int temp;
         int a1=i;
 
@@ -44,12 +43,8 @@ int main()
         {
             if(min>A[j])
             {
-                
-               
                 a1=j;
-               
-                min=A[j];
-                
+                min=A[j]; 
             }
         }
          temp=A[i];

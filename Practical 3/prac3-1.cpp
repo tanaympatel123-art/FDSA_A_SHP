@@ -52,7 +52,7 @@ int main()
         A[a1]=temp;
     }
 
-    cout<<"Sorted through Bubble sort: "<<endl;
+    cout<<"Sorted through Selection sort: "<<endl;
     for(int i=0;i<n;i++)
     {
         cout<<A[i]<<endl;
